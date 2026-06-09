@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Studify - Онлайн курсы</title>
+
+    <link rel="stylesheet" href="/src/scss/style.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="header-top">
+        <p>ENJOY YOUR STUDYING!</p>
+    </div>
+    <div class="header-main">
+        <h1 class="header-title">Our online courses</h1>
+    </div>
+</header>
+<main class="catalog">
+    <section class="catalog-bar">
+        <div class="catalog-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+            <button class="filter-btn" data-filter="management">Management</button>
+            <button class="filter-btn" data-filter="business">HR & Recruiting</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="development">Development</button>
+        </div>
+        <div class="search-bar">
+            <input class="search" type="text" placeholder="Search course..." aria-label="Search course">
+            <button type="submit" class="search-btn">
+            <i data-lucide="search" width="16" height="16"></i>
+            </button>
+        </div>
+    </section>
+    <section class="catalog-content">
+
+    </section>
+</main>
+<script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
